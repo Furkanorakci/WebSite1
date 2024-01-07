@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+h1{
+	text-align: center;
+}
+h1,h2,h3,p,a{
+	font-family: 'Tektur', cursive;
+}
+p{
+	text-align: center;
+}
+nav{
+	text-align: left;
+	background-color: #2A2F33;
+	}
+.menu{
+	padding: 20px;
+}
+.menu a{
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: left;
+}
+
+.menu .linkler{
+	margin-left: 30px;
+	margin-right: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.menu .linkler:hover{
+	color: white;
+}
+
+.menu #marka{
+	font-style: italic;
+	float: right;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.social-media{
+	position: absolute;
+	top: 50%;
+	left: 35%
+	
+}
+.instagram,.twitter,.linkedin,.github,.youtube{
+	display: inline;
+	}
+.social-media div a {
+	display: inline-flex;
+	width: 80px;
+	height: 80px;
+	background: #2c3e50;
+	font-size: 50px;
+	color: #fff;
+	margin: 0 6px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: 1.2s;
+}	
+.social-media .twitter a:hover{
+	background: black;
+}
+.social-media .instagram a:hover{
+	background: #7315c6;
+}
+.social-media .youtube a:hover{
+	background: red;
+}
+.social-media .github a:hover{
+	background: #4078c0;
+}
+.social-media .linkedin a:hover{
+	background: #0072b1;
+}
+
+.social-media a i{
+	transition: 0.5s all;
+}
+.social-media a:hover > i {
+	transform: scale(1.2) rotate(360deg);
+}

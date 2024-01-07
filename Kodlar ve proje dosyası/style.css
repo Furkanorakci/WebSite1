@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+h1{
+	text-align: center;
+}
+h1,h2,h3,p,a{
+	font-family: 'Tektur', cursive;
+}
+p{
+	text-align: center;
+}
+nav{
+	text-align: left;
+	background-color: #2A2F33;
+	}
+.menu{
+	padding: 20px;
+}
+.menu a{
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: left;
+}
+
+.menu .linkler{
+	margin-left: 30px;
+	margin-right: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.menu .linkler:hover{
+	color: white;
+}
+
+.menu #marka{
+	font-style: italic;
+	float: right;
+}
+
+/* HAKKIMDA SAYFASI  */
+
+.container{
+	
+	margin:20px  auto 20px auto;
+	width: 80%;
+	-webkit-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.ikon{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+body{
+	margin: 0;
+	background-color: #ededed;
+}
+h1{
+	text-align: center;
+}
+h1,h3,p,a{
+	font-family: 'Tektur', cursive;
+	
+}
+
+
+.menu .linkler{
+	margin-left: 30px;
+	margin-right: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.menu .linkler:hover{
+	color: white;
+}
+
+.menu #marka{
+	font-style: italic;
+	float: left;
+}
+
+/* HİZMETLER SAYFASI  */
+
+.container{
+	
+	margin:20px  auto 20px auto;
+	width: 80%;
+	-webkit-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.ikon{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*iLETİSİM SAYFASI*/
+
+.content{
+	margin:20px  auto 20px auto;
+	width: 80%;
+	-webkit-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+ form input{
+	    	width: 200px;
+	    	height: 20px;
+	    	border-radius: 5px;
+	    	padding: auto;
+
+	    }
+	    textarea{
+	    	border-radius: 15px;
+	    }
+	    button{
+	    	border-radius: 5px;
+	    	background-color: #e67e22;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 2px;
+            cursor: pointer;
+	    }
+	    button:hover{
+	    	color: black;
+	    }
+
+ li{
+			float:left;
+			font-size: 22px;
+			color: white;
+
+		}
+		li a{
+			text-align:center;
+			padding: 5px;
+			color: white;
+			text-decoration: none;
+			
+		}
+		li a:hover{
+			color: white;
+		}
+
+/*Sosyal Medya Sayfası*/
+
+  .social-media{
+  	margin: 0;
+  	padding: 0;
+  }
